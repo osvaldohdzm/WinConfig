@@ -1,3 +1,8 @@
+
+$str.Replace('to','at')
+ PowerShell Replace
+I have stored the result of 
+
 NVIM commands for long files
 :set nowrap
 
