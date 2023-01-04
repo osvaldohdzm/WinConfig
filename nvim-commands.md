@@ -1,3 +1,4 @@
+"".Replace('\','\\')
 
 $str.Replace('to','at')
  PowerShell Replace
