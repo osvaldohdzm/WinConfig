@@ -24,10 +24,12 @@ document.querySelectorAll('tr').forEach(function(e, i) {
 
 
 
-
+'''
 SET SONAR_HOST_URL=http://localhost:9000
 SET SONAR_TOKEN=squ_d9e13aabc796836ec821ee43aad96ce1ef4a736c
 
+sonar-findings-export -k "BANOBRAS-COAS" -o BANOBRAS-COAS.csv
+'''
 # Exports all issues of project myProjectKey
 sonar-findings-export -k "BANOBRAS-COAS" -o BANOBRAS-COAS.csv
 
