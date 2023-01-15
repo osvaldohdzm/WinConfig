@@ -1,7 +1,7 @@
 
-'''
+```
 python .\vumsy-cli.py  -j .\config.json --load appvulns -f "C:\\Users\\ohernandez\\Desktop\\SourceCodeAnalize\\code_issues_coa.csv"
-'''
+```
 
 Excel
 
